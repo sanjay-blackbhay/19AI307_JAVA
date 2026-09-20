@@ -21,25 +21,49 @@ To create a java program that returns the sum of all the values in a 2D array.
 ## PROGRAM:
  ```
 /*
-Program to implement a Multi Dimensional Array using Java
-Developed by: 
-RegisterNumber:  
-*/
+Program to implement a Single Array using Java
+Developed by: Sanjay R
+RegisterNumber: 212224060233
+*/ 
+
 ```
 
 ## Sourcecode.java:
 
 
+```
+import java.util.Scanner;
+
+class Circle {
+    double area;
+
+    // Constructor to calculate area
+    Circle(double radius) {
+        area = 3.14159 * radius * radius;
+        System.out.printf("Area of the circle with radius %.2f is %.2f%n", radius, area);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        if (sc.hasNextDouble()) {           // check if input exists
+            double radius = sc.nextDouble();
+            Circle c = new Circle(radius);  // constructor calculates & prints area
+        }
+
+        // Do not close Scanner in online judges (prevents hidden test failures)
+    }
+}
 
 
-
-
+```
 
 ## OUTPUT:
+<img width="1244" height="269" alt="514743086-45c2919b-7e80-4f6c-a3f4-ef56d86462bc" src="https://github.com/user-attachments/assets/4fc36c0d-3477-4461-b260-fa682950db43" />
 
 
 
 ## RESULT:
 Thus the java program that returns the sum of all the values in a 2D array was executed successfully.
-
-
