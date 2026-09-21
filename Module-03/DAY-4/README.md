@@ -21,13 +21,25 @@ To create a java program using StringTokenizer class that tokenizes a string "My
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Sanjay R
+RegisterNumber: 212224060233
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;
+public class GFG {
+	public static void main(String[] args)
+	{
+	    Scanner sc=new Scanner(System.in);
+		String str = sc.nextLine();
+		String[] split = str.split(" ");
+		for (int i = 0; i < split.length; i++)
+			System.out.println(split[i]);
+	}
+}
+```
 
 
 
@@ -35,6 +47,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="716" height="532" alt="image" src="https://github.com/user-attachments/assets/d7c2aa87-e596-4aec-960e-ede9f21a5ba5" />
 
 
 
