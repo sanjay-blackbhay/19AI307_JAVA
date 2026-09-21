@@ -23,12 +23,24 @@ To Create a java program use replace() method replaces the given String from the
  ```
 /*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Sanjay R
+RegisterNumber: 212224060233
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class StringBufferExample3{  
+public static void main(String args[]){ 
+Scanner sc=new Scanner(System.in);
+String str1=sc.nextLine();
+StringBuffer sb=new StringBuffer(str1);  
+sb.replace(1,3,"Java");  
+System.out.println(sb); 
+}  
+}
+```
 
 
 
@@ -37,11 +49,11 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="420" height="328" alt="image" src="https://github.com/user-attachments/assets/40b19f63-5dd3-44df-a1b6-e785f8abc5e2" />
 
 
 
 ## RESULT:
 Thus the java program use replace() method replaces the given String from the specified beginIndex and endIndex and use stringbuilder was executed successfully.
-
 
 
